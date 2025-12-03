@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>title标签效果</title>
+    <link href="styles/style.css" rel="stylesheet" /><!-- 外部样式表 -->
+
+  </head>
+  <body>
+    <h1> h1标签效果 </h1><!-- 这是注释-->
+    <h2> h2标签字要小一些 </h2>
+    <img src="images/firefox-icon.jpg" alt="My test image" />
+    <p style="color:aqua"> 这是段落标签p, 想换行可以开一个新p</p>
+    <p>
+  段落At Mozilla,  <span style="color:blue">we're a global community of technologists,</span> thinkers, and builders
+  working together…
+    </p>
+    <p>段落At Mozilla, we're a global community of</p>
+
+    <ul><!-- 无序列表-->
+    <li>无序列表容器ul,列表中的每一项由li标签包含</li><!-- 列表项-->
+    <li>technologists</li>
+    <li>thinkers</li>
+    <li>builders</li>
+    </ul>
+    <p>有序列表ol:
+
+      在段落中将部分文字超链接化
+      <a href="https://www.mozilla.org">这是一个链接标签a</a>,
+      在编辑器中的回车不会影响最终显示效果。
+    </p>
+    <script >
+      // src="scripts/main.js"
+      document.querySelector("html").addEventListener("click", function () {
+        alert("别戳我，我怕疼！");
+      });
+    </script>
+  </body>
+</html>
